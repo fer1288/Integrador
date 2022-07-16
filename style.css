@@ -77,6 +77,8 @@ button:hover {
     height: 100%;
     display: flex;
     align-items: center;
+    height: 200px;
+  
 }
  .logo-container img {
     height: 60%;
@@ -132,13 +134,37 @@ button:hover {
 .description-container {
     display: flex;
     flex-direction: column;
-    flex: 1 1 50%;
-    gap: 40px;
+ gap: 40px;
+
 }
+
 .text-container {
     max-width: max(40%,300px);
 }
 
+.text-container h1 {
+    font-weight: 700;
+    font-weight: 45px;
+    line-height: 45px;
+
+}
+.text-container p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.hero-img {
+    background-image: url(./IMG1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 250px;
+    width: 30% ;
+    height: 250px;
+    border-radius: 5px;
+    
+
+}
 
 
 
@@ -166,5 +192,13 @@ z-index: 9999;
 #toggle-menu:checked + .navbar-list {
     display: flex;
 }
+.logo-container {
+    height: 150px;
+}
+
+.hero-img {
+ min-width: 200px;   
+}
+
 
 }
