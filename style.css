@@ -126,8 +126,7 @@ button:hover {
  /* Hero **/
  #hero {
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
+     gap: 20px;
     padding: 70px 50px;
 
  }
@@ -196,8 +195,16 @@ z-index: 9999;
     height: 150px;
 }
 
+.text-container {
+    margin: 20px;
+    
+}
+#hero  {
+    flex-wrap: wrap;
+}
 .hero-img {
- min-width: 200px;   
+ min-width: 180px;
+ height: 150px;   
 }
 
 
