@@ -16,6 +16,10 @@ body {
 .section-container {
     background-color: black;
 }
+.section-container2 {
+    background-color: yellow;
+}
+
 .section {
     display: flex;
     justify-content: center;
@@ -133,6 +137,7 @@ button:hover {
 .description-container {
     display: flex;
     flex-direction: column;
+    flex: 1 1 50% ;
  gap: 40px;
 
 }
@@ -164,6 +169,8 @@ button:hover {
     
 
 }
+
+/** Section 3 **/
 
 
 
@@ -201,6 +208,8 @@ z-index: 9999;
 }
 #hero  {
     flex-wrap: wrap;
+  
+   
 }
 .hero-img {
  min-width: 180px;
