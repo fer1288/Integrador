@@ -272,11 +272,26 @@ button:hover {
 
 
 
+.title-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  
+}
 
+.product {
+    gap: 10px;
+    max-width: 250px;
+}
 
+.product img {
+max-width: 200px;
+}
 
+.btn-products {
+padding: 1rem;
 
-
+}
 
 
 }
