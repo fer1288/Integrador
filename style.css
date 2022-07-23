@@ -18,8 +18,11 @@ body {
     background-color: black;
 }
 .section-container2 {
-    background-color: yellow;
+   
+   background-color: yellow;
+
 }
+
 
 .section {
     display: flex;
@@ -86,7 +89,7 @@ button:hover {
   
 }
  .logo-container img {
-    height: 60%;
+    height: 40%;
  }
  
  .navbar,.navbar-list {
@@ -113,7 +116,7 @@ button:hover {
     font-size: 22px;
 
 }
-.navbar-list li:last-child >a {
+.navbar-list li:last-child > a {
     border: 1px solid white;
     font-size: 14px;
     padding: 8px 40px;
@@ -128,7 +131,9 @@ button:hover {
     transition: all 0.3s linear;
     font-weight: 700;
 }
- /* Hero **/
+
+
+/* Hero **/
  #hero {
     justify-content: space-between;
      gap: 20px;
@@ -145,6 +150,7 @@ button:hover {
 
 .text-container {
     max-width: max(40%,300px);
+    color:red;
 }
 
 .text-container h1 {
@@ -168,14 +174,14 @@ button:hover {
     height: 250px;
     border-radius: 5px;
     
-
+ 
 }
 
 /** Section 3 **/
 
 #productos {
-    flex-direction: column;
-    gap:max (120px,10%);
+    flex-direction: column
+    
 }
 
 .title-container {
@@ -231,45 +237,57 @@ button:hover {
 
 }
 
-@media (max-width:320px) {
+/** Section 4 **/
 
 
-    .navbar i {
-        display: block;
-    }
-    
-    .navbar-list {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:425px) {
+
+.header {
+    padding: 0 50px 0px 10px;
+   
+}
+
+.navbar i{
+
+  display: block;
+}
+
+.navbar-list {
     position: absolute;
     background-color: black;
     flex-direction: column;
-    top:100px;
+    top: 100px;
     right: 0;
     width: 100%;
-    height: calc(100vh- 100px);
-    display: none;
+    height: calc(100vh - 100px);
+ display: none;
     z-index: 9999;
-    }
-    #toggle-menu:checked + .navbar-list {
-        display: flex;
-    }
-    .logo-container {
-        height: 150px;
-    }
-    
-    .text-container {
-        margin: 20px;
-        
-    }
-    #hero  {
-        flex-wrap: wrap;
-      
-       
-    }
-    .hero-img {
-     min-width: 180px;
-     height: 150px;   
-    }
+}
 
+#toggle-menu :checked +.navbar-list {
+    display: block;
+}   
+
+.section-container2 {
+    background-color: aqua;
+    
+}
 
 
 .title-container{
@@ -294,7 +312,27 @@ padding: 1rem;
 }
 
 
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
