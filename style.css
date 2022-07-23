@@ -240,7 +240,41 @@ button:hover {
 /** Section 4 **/
 
 
+.footer {
+    display: flex;
+justify-content: space-around;
+max-width: 1300px;
+margin: 0 auto;
+flex-wrap: wrap;
+gap:  70px;
+padding: 30px;
+}
+.footer-msg {
+    text-align: justify;
+    font-weight: 700;
+    font-size: 24px;
+    max-width: 450px;
+}
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size:  14px;
+    min-height: 100px;
+}
+.footer-social i:last-child {
+    margin-left: 10px;
+}
 
+.footer-terms {
+    display: flex;
+    gap: 25px;
+    }
+.footer-terms a {
+    color:white;
+    font-weight: 300;
+}
 
 
 
