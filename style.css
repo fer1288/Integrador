@@ -34,7 +34,7 @@ background-color: black;
 }
 button {
     background-color: yellow;
-    border: 0px solid black;
+    border: 5px solid black;
     outline: none;
     width: 180px;
     height: 40px;
@@ -120,7 +120,7 @@ button:hover {
 
 }
 .navbar-list li:last-child > a {
-    border: 1px solid white;
+    border: 5px solid red;
     font-size: 14px;
     padding: 8px 40px;
     border-radius: 3px;
@@ -172,7 +172,7 @@ button:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 250px;
+    max-width: 250px;
     width: 30% ;
     height: 250px;
     border-radius: 5px;
@@ -328,7 +328,9 @@ background-color:black;
 
 .section-container2 {
     background-color: aqua;
+    display: flex;
     
+
 }
 
 
@@ -353,7 +355,14 @@ padding: 1rem;
 
 }
 
+.hero-img {
+    height: 180px;
+    width: 150px;
+}
 
+.text-container {
+    background-color: blue;
+}
 
 
 }
