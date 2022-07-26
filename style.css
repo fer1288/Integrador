@@ -149,7 +149,7 @@ transition: all 0.3s linear;
 
 .text-container {
     max-width: max(40%,300px);
-    color:red;
+
 }
 
 .text-container h1 {
@@ -168,9 +168,9 @@ transition: all 0.3s linear;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 250px;
+    min-width: 250px;
     width: 30% ;
-    height: 250px;
+    height: 350px;
     border-radius: 5px;
     
  
@@ -351,11 +351,21 @@ padding: 1rem;
 
 .hero-img {
     height: 180px;
-    width: 150px;
+   min-width: 200px;
+}
+
+.description-container {
+    justify-content: center;
+    align-items: center;
 }
 
 .text-container {
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
 
 
