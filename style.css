@@ -11,11 +11,11 @@ html {
 }
 body {
     width: 100%;
-    color: white;
+    color: black;
 }
 
 .section-container {
-    background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+   color: antiquewhite;
 
 }
 .section-container2 {
@@ -112,12 +112,12 @@ button:hover {
 }
 
 .navbar a {
-    color: white;
+    color: black;
     font-size: 22px;
 }
 
 .navbar-list li:last-child >a {
-    border: 1px solid white;
+    border: 2px solid black;
     font-size: 14px;
 padding: 8px 40px;
 border-radius: 3px;
@@ -294,7 +294,7 @@ background-color:black;
 
 
 
-@media (max-width:320px) {
+@media (max-width:425px) {
 
     .header {
         padding: 0px 50px 0px 10px;
@@ -372,7 +372,16 @@ padding: 1rem;
 }
 
 
+@media (max-width 425px) {
 
+
+
+
+
+
+
+
+}
 
 
 
