@@ -210,7 +210,20 @@ flex-direction: column;
 }
 .product img {
     max-width: 250px;
+    height: 180px;
+   
 }
+img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
 
 .product {
     
