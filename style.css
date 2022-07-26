@@ -65,10 +65,8 @@ button:hover {
 
 .header-container {
     position: sticky;
-    top: 0;
-    z-index:9999 ;
-    
-
+    top:0%;
+    z-index: 9999;
 }
 
 .header {
@@ -79,33 +77,32 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     padding: 0px 80px 0px 50px;
-    background-color: whitesmoke;
-    
-
+   
 }
+
 .logo-container {
     height: 100%;
     display: flex;
     align-items: center;
-    height: 200px;
-  
 }
- .logo-container img {
-    height: 40%;
- }
- 
- .navbar,.navbar-list {
+.logo-container img {
+    height: 70%;
+}
+.navbar,
+.navbar-list {
     display: flex;
     align-items: center;
     justify-content: center;
- }
- .navbar-list {
-    gap: 50px;
-    
+    text-decoration: none;
 }
+.navbar-list {
+    gap: 50px;
+
+}
+
 .navbar i {
     font-size: 40px;
-    color:black;
+    color: red;
     cursor: pointer;
     display: none;
 }
@@ -115,20 +112,18 @@ button:hover {
 }
 
 .navbar a {
-    color:black;
+    color: white;
     font-size: 22px;
-
 }
-.navbar-list li:last-child > a {
-    border: 5px solid red;
+
+.navbar-list li:last-child >a {
+    border: 1px solid white;
     font-size: 14px;
-    padding: 8px 40px;
-    border-radius: 3px;
-  transition: all 0.3s linear;
-
-}
-
-.navbar-list li:last-child >a :hover {
+padding: 8px 40px;
+border-radius: 3px;
+transition: all 0.3s linear;
+} 
+.navbar-list li:last-child >a :hover{
     background-color: white;
     color: gray;
     transition: all 0.3s linear;
@@ -300,31 +295,29 @@ background-color:black;
 
 @media (max-width:425px) {
 
-.header {
-    padding: 0 50px 0px 10px;
-   
-}
-
-.navbar i{
-
-  display: block;
-}
-
-.navbar-list {
-    position: absolute;
-    background-color: black;
+    .header {
+        padding: 0px 50px 0px 10px;
+    }
+    .navbar i {
+        display: block;
+    }
+    
+    .navbar-list {
+        position: absolute;
+        background-color: black;
     flex-direction: column;
-    top: 100px;
+    top:100px;
     right: 0;
     width: 100%;
-    height: calc(100vh - 100px);
- display: none;
+    height: calc(100vh-100px);
+    display: none;
     z-index: 9999;
-}
-
-#toggle-menu :checked +.navbar-list {
-    display: block;
-}   
+    }
+    
+    #toggle-menu:checked + .navbar-list {
+        display:flex;
+    }
+    
 
 .section-container2 {
     background-color: aqua;
