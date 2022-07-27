@@ -344,8 +344,13 @@ background-color:rgb(235, 29, 54);
         display:flex;
     }
     
+.logo-container img {
+    height: 40%;
+}
 
-.section-container2 {
+
+
+    .section-container2 {
     background-color: aqua;
     display: flex;
     
@@ -412,7 +417,8 @@ padding: 1rem;
 
 
 
-}
+
+
 
 
 
